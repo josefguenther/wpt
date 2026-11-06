@@ -114,7 +114,7 @@ def check_environ(product):
     builtin_skip = {
         "android_webview", "chrome", "chrome_android", "chrome_ios",
         "edge", "firefox", "firefox_android", "headless_shell",
-        "ladybird", "servo", "wktr"
+        "filigree", "ladybird", "servo", "wktr"
     }
 
     if product not in builtin_skip:
