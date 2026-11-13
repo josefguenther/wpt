@@ -52,7 +52,7 @@
   text-combine-upright: digits calc(4 / 2);
 }
 
-#valid_digits_calc_4_dividedby_2 {
+#valid_digits_calc_6_dividedby_2 {
   text-combine-upright: digits calc(6 / 2);
 }
 
@@ -74,7 +74,7 @@
 <div id="valid_digits_calc_3_times_1"></div>
 <div id="valid_digits_calc_2_times_2_times_1"></div>
 <div id="valid_digits_calc_4_dividedby_2"></div>
-<div id="valid_digits_calc_4_dividedby_2"></div>
+<div id="valid_digits_calc_6_dividedby_2"></div>
 <div id="valid_digits_calc_24_dividedby_3_dividedby_2"></div>
 
 <div id="log"></div>
@@ -126,7 +126,7 @@ test(function () {
 }, 'Computed value for `text-combine-upright: digits calc(4 / 2)` is `digits 2`');
 
 test(function () {
-  assert_equals(getComputedValueFor('valid_digits_calc_4_dividedby_2'), 'digits 3');
+  assert_equals(getComputedValueFor('valid_digits_calc_6_dividedby_2'), 'digits 3');
 }, 'Computed value for `text-combine-upright: digits calc(6 / 2)` is `digits 3`');
 
 test(function () {
